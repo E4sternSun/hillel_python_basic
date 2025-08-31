@@ -6,6 +6,6 @@ c, hundreds = divmod(b, 10)
 d, thousands = divmod(c, 10)
 tens_of_thousands = d
 
-#тут так само, як і в першому завданні, тільки цифр 5 і print у зворотньому порядку.
+#тут так само, як і в першому завданні, тільки цифр 5 і print всіх змінних в 1 строці.
 print(ones, tens, hundreds, thousands, tens_of_thousands)
 print("\nWith love to divmod <3\033[0m")
