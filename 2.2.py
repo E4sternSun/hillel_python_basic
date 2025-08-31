@@ -7,9 +7,5 @@ d, thousands = divmod(c, 10)
 tens_of_thousands = d
 
 #тут так само, як і в першому завданні, тільки цифр 5 і print у зворотньому порядку.
-print(ones)
-print(tens)
-print(hundreds)
-print(thousands)
-print(tens_of_thousands)
+print(ones, tens, hundreds, thousands, tens_of_thousands)
 print("\nWith love to divmod <3\033[0m")
