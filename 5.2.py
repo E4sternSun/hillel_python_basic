@@ -7,13 +7,13 @@ while True:
     a = int(input("Enter the first number for calculation: "))
     b = int(input("Enter the second number for calculation: "))
 
-    if op == '+':
+    if op == "+":
         print(a + b)
-    elif op == '-':
+    elif op == "-":
         print(a - b)
-    elif op == '*':
+    elif op == "*":
         print(a * b)
-    elif op == '/':
+    elif op == "/":
         if b == 0:
             print("\n\033[91mYou can't divide by zero!\033[0m")
         else:
