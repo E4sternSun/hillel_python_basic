@@ -1,7 +1,7 @@
 import random
 
-lst = [random.randint(0, 9) for _ in range(random.randint(3, 10))]
-print("random list:", lst)
+list_random = [random.randint(0, 9) for _ in range(random.randint(3, 10))]
+print("Random list:", list_random)
 
-new_lst = [lst[0], lst[2], lst[-2]]
-print("new list:", new_lst)
+new_list = [list_random[0], list_random[2], list_random[-2]]
+print("New list:", new_list)
