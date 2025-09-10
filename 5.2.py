@@ -1,5 +1,5 @@
 while True:
-    op = input("Select operation (+, -, /, *) or 'exit' for exit: ")
+    op = input("""Select operation (+, -, /, *) or "exit" for exit: """)
     if op == "exit":
         print("Bye!")
         break
