@@ -4,7 +4,9 @@ import keyword
 while True:
     name = input("Enter the variable name : ")
 
-    if name and name[0].isdigit():
+    if not name:
+        print(False)
+    elif name[0].isdigit():
         print(False)
     elif any(_.isupper() for _ in name):
         print(False)
