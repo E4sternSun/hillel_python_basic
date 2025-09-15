@@ -2,11 +2,11 @@ import string
 
 while True:
     user_input = input("Enter two letters separated by a hyphen : ")
+    start, end = user_input.split("-")
 
     if not user_input.strip():
         print("The string cannot be empty!")
         continue
-    start, end = user_input.split("-")
 
     letters = string.ascii_letters
     start_index = letters.index(start)
