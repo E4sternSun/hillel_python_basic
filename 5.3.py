@@ -14,6 +14,6 @@ while True:
     print("Your hashtag:", hashtag[:140])
 
     cont = input("Continue? (yes/y to proceed): ").lower()
-    if cont not in ['yes', 'y']:
+    if cont not in ["yes", "y"]:
         print("See you later")
         break
