@@ -1,0 +1,20 @@
+while True:
+    try:
+        user_input = int(input("Enter a positive integer: "))
+    except ValueError:
+        print("Error: please enter a number.")
+        continue
+
+    while user_input > 10:
+        digits = str(user_input)
+        result = int(digits[0])
+        for i in range(1, len(digits)):
+            result *= int(digits[i])
+        user_input = result
+
+    print(f"Result: {user_input}")
+
+    cont = input("Continue? (yes/y to proceed): ").strip().lower()
+    if cont not in ["yes", "y"]:
+        print("See you later")
+        break
