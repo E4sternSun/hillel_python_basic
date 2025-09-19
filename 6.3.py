@@ -5,7 +5,7 @@ while True:
         print("Error: please enter a number.")
         continue
 
-    while user_input > 10:
+    while user_input >= 9:
         digits = str(user_input)
         result = int(digits[0])
         for _ in range(1, len(digits)):
