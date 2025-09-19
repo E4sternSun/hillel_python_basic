@@ -8,8 +8,8 @@ while True:
     while user_input > 10:
         digits = str(user_input)
         result = int(digits[0])
-        for i in range(1, len(digits)):
-            result *= int(digits[i])
+        for _ in range(1, len(digits)):
+            result *= int(digits[_])
         user_input = result
 
     print(f"Result: {user_input}")
