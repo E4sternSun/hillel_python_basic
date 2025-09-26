@@ -9,7 +9,7 @@ def common_elements() -> set[int]:
     set_3 = set(list_3)
     set_5 = set(list_5)
 
-    return set_3 & set_5  # intersection
+    return set_3 & set_5
 
 
 assert common_elements() == {0, 15, 30, 45, 60, 75, 90}, 'Test1'
