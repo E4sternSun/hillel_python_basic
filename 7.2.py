@@ -2,8 +2,7 @@ def correct_sentence(text: str) -> str:
     """
     Corrects a sentence so that it starts with a capital letter and ends with a period.
 
-    :param text: The input sentence.
-    :type text: str
+    :param: The input sentence.
     :return: The corrected sentence with a capitalized first letter and a period at the end.
     """
     text = text[0].upper() + text[1:]
