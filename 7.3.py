@@ -2,7 +2,7 @@ def second_index(text: str, some_str: str) -> int | None:
     """
     Returns the index of the second occurrence of a substring in a given string.
 
-    :param text: The string to search in.
+    :param: The string to search in.
     :return: The index of the second occurrence of the substring, or None if it doesn't occur twice.
     """
     first = text.find(some_str)
