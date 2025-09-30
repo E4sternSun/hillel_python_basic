@@ -1,8 +1,8 @@
-def difference(*args: float) -> float:
+def difference(*args: float | int) -> float | int:
     """
     Calculates the difference between the maximum and minimum values from a variable number of numeric arguments.
 
-    :param args: A variable number of numeric values (int or float).
+    :param args: A variable number of numeric values.
     :return: The difference between the largest and smallest value, rounded to 2 decimal places if needed.
     """
     if not args:
